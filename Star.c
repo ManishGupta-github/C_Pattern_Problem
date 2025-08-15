@@ -1,6 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    printf("Hello");
-    return 0;
+    for(int j=1;j<=4;j++)
+    {
+        for(int i=1;i<=5;i++)
+    {
+        printf("*");
+    }
+    printf("\n");
+    }
+
+return 0;
 }
